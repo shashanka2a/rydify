@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Features from './components/Features';
 import HowItWorks from './components/HowItWorks';
+// import FloatingPhones from './components/FloatingPhones';
 import GetStarted from './components/GetStarted';
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
       <Header />
       <Features />
       <HowItWorks />
+      {/* <FloatingPhones/> */}
       <GetStarted />
     </div>
   );

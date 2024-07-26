@@ -1,9 +1,7 @@
 import React from 'react';
 import { FaMapMarkerAlt } from 'react-icons/fa';
-// Uncomment and use your actual logo path
-// import logo from '../assets/logo.png'; 
-// Uncomment and use your actual hero image path
-// import heroImage from '../assets/hero-image.png';
+import Top from '../../public/top.png';
+import Logo from '../../public/logo.png';
 
 const Header = () => {
   return (
@@ -12,10 +10,10 @@ const Header = () => {
         <div className="flex justify-center mb-12">
           {/* Centered Rydify logo and name */}
           <div className="flex items-center">
-            <div className="w-8 h-8 bg-[#0e7490] rounded-full flex items-center justify-center mr-2">
+            {/* <div className="w-8 h-8 bg-[#0e7490] rounded-full flex items-center justify-center mr-2">
               <FaMapMarkerAlt className="text-white" />
-            </div>
-            <span className="text-2xl font-bold text-[#0e7490]">Rydify</span>
+            </div> */}
+            <img src={Logo} alt="Rydify Logo" className="h-15" />
           </div>
         </div>
         
@@ -35,9 +33,9 @@ const Header = () => {
           
           <div className="w-full md:w-1/2 mb-8 md:mb-0">
             {/* Replace with your actual hero image */}
-            <div className="border-2 border-[#0e7490] rounded-lg p-4">
+            <div className="  rounded-lg p-4">
               <img 
-                src="/path-to-your-hero-image.png" 
+                src={Top} 
                 alt="Ride-sharing illustration" 
                 className="w-full h-auto"
               />

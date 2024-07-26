@@ -1,9 +1,10 @@
 import React from 'react';
 import { FaSearch, FaUserCheck, FaCar } from 'react-icons/fa';
+import Main from '../../public/main.png';
 
 const HowItWorks = () => {
   return (
-    <section className="py-16 max-w-6xl mx-auto px-4">
+    <section className="pt-10 pb-32 max-w-5xl mx-auto px-4">
       <div className="flex flex-col md:flex-row justify-between items-center">
         <div className="md:w-1/2 md:pr-8 mb-8 md:mb-0">
           <h2 className="text-2xl md:text-3xl font-bold mb-4 text-left">Wondering How Rydify Works?</h2>
@@ -30,7 +31,7 @@ const HowItWorks = () => {
         
         <div className="md:w-1/2">
           <img 
-            src="/path-to-your-illustration.png" 
+            src={Main} 
             alt="Rydify illustration" 
             className="w-full h-auto"
           />
