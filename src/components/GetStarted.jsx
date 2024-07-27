@@ -13,7 +13,7 @@ const GetStarted = ({ reverseLayout = false }) => {
             Ready to Get Started?
           </h2>
           <p className="mb-4 text-sm md:text-base">
-            Download the app now on your smartphone & enjoy a safe and pocket-friendly journey with Radify!
+            Download the app now on your smartphone & enjoy a safe and pocket-friendly journey with Rydify!
           </p>
           <button className="px-4 py-2 bg-white text-[#0e3e5c] rounded-full font-semibold text-sm hover:bg-gray-100 transition-colors">
             Download App
