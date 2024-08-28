@@ -23,7 +23,7 @@ const Header = () => {
               Revolutionizing Ride-Sharing in United States
             </h1>
             <p className="text-gray-600 mb-6">
-              Affordable, Sustainable and Community-Driven travel
+              Share Rides, Split Costs, and Travel Together.
             </p>
             <div className="flex justify-center md:justify-start items-center text-[#0e7490]">
               <FaMapMarkerAlt className="mr-2" />
