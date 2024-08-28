@@ -10,18 +10,18 @@ const Features = () => {
       <div className="flex flex-col md:flex-row justify-between items-center">
         <FeatureItem 
           icon={<FaCar />}
-          title="Easy Booking"
-          description="Book your ride with a few clicks only"
+          title="P2P Ride Sharing"
+          description="Unlike traditional cab services, Rydify lets you connect directly with fellow students and travelers to share rides."
         />
         <FeatureItem 
           icon={<FaUserShield />}
-          title="Verified Drivers"
-          description="All drivers and cars are verified from our site"
+          title="Community Focused"
+          description="Built by students for students—Rydify is tailored to your needs, offering flexible and safe travel options."
         />
         <FeatureItem 
           icon={<FaBolt />}
-          title="Flexible Options"
-          description="Choose from a range of options that fits your need"
+          title="Shared Cab Option"
+          description="When you can’t find a driver, join forces with others to share an Uber or Lyft, reducing costs and carbon footprint."
         />
       </div>
     </section>
