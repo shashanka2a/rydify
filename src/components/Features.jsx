@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaCar, FaUserShield, FaBolt } from 'react-icons/fa';
+import { FaHandshake, FaUserShield, FaTaxi } from 'react-icons/fa';
 
 const Features = () => {
   return (
@@ -9,7 +9,7 @@ const Features = () => {
       
       <div className="flex flex-col md:flex-row justify-between items-center">
         <FeatureItem 
-          icon={<FaCar />}
+          icon={<FaHandshake />}
           title="P2P Ride Sharing"
           description="Unlike traditional cab services, Rydify lets you connect directly with fellow students and travelers to share rides."
         />
@@ -19,7 +19,7 @@ const Features = () => {
           description="Built by students for students—Rydify is tailored to your needs, offering flexible and safe travel options."
         />
         <FeatureItem 
-          icon={<FaBolt />}
+          icon={<FaTaxi />}
           title="Shared Cab Option"
           description="When you can’t find a driver, join forces with others to share an Uber or Lyft, reducing costs and carbon footprint."
         />
